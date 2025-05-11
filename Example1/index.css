@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.secondContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 21px;
+    background-color: #080001;
+    padding: 20px 20px 5px 20px;
+    color: #F94F6D;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    
+}
+.gamifyFont{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+
+.title{
+    margin-bottom: 21px;
+}
+
+.buttonstyle{
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    width: 45px;
+    font-size: 18px;
+    color: #9AABD8;
+    padding: 9px 4px;
+    margin-bottom: 50px;
+    cursor:pointer;
+}
+
+#btnnewgame{
+    width: 200px;
+    padding: 15px 5px;
+    margin-bottom: 0px;
+}
+
+
+.buttonstyle:hover{
+    background-color: white;
+}
+
+#previousGames{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
