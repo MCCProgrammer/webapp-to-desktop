@@ -42,7 +42,7 @@ This project converts a web application into a desktop application using modern 
   ```
 8. Start the development server:
   ```bash
-  run npm start
+  npm start
   ```
 
 ## Contributing
